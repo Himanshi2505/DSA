@@ -25,7 +25,7 @@ void sortColors(vector<int> &nums){
     for(int i=cnt0;i<cnt0 + cnt1;i++){
         nums[i] = 1;
     }
-    for(int i=cnt0 + cnt1;i<n;i++){
+    for(int i=cnt0 + cnt1;i<nums.size();i++){
         nums[i] = 2;
     }
 
